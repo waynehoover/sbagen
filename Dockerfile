@@ -15,10 +15,10 @@ RUN git clone https://aur.archlinux.org/sbagen.git && cd sbagen && makepkg
 # COPY --from=build /usr/lib/sbagen/sbagen /
 # ENTRYPOINT ["/sbagen"] # 637MB
 
-FROM gcr.io/distroless/static
+FROM scratch
 COPY --from=build /data/sbagen/pkg/sbagen/usr/lib/sbagen/sbagen /sbagen
 COPY --from=build /lib/ld-linux.so.2 /lib/ld-linux.so.2
 COPY --from=build /usr/lib32 /usr/lib32
 
-# # 148MB !
+# 146MB !
 ENTRYPOINT ["/sbagen"]
