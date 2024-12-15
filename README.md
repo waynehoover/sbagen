@@ -1,4 +1,4 @@
-#Sbagen on Docker
+# Sbagen on Docker
 This repo contains a Dockerfile that can be used to build a Docker image for sbagen.
 
 Running sbagen on docker is a reliable way to run the 32-bit sbagen program on any OS that supports Docker.
