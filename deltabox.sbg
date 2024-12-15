@@ -1,0 +1,40 @@
+## .5 below -> inspiration and out of body
+## .9 -> Euphoria
+## 1.0 -> Well-being
+##
+##    1/20/08
+## HealingBeats.com
+## By Wayne
+
+
+-Wo /data/test.wav
+-SE
+-L 00:10:00
+-q 1
+
+off: -
+p5: 20+.5/55 pink/3
+p5a: 20+.5/55 100+.5/30 pink/3
+p5b: 20+.5/30 100+.5/30 150+.5/30 pink/3
+
+p9: 50+.9/55 pink/3
+p9a: 50+.9/55 100+.9/30 pink/3
+p9b: 50+.9/30 100+.9/30 150+.9/30 pink/3
+
+one: 60+1/55 pink/3
+onea: 60+1/55 100+1/30 pink/3
+oneb: 60+1/30 100+1/30 150/30 pink/3
+
+beta: 270+15.39/15 pink/3
+
+00:00:00 off ->
+00:05:00 beta ->
+00:07:00 one ->
+00:09:00 onea ->
+00:12:00 oneb ->
+00:14:00 oneb ->
+00:35:00 p9b ->
+00:39:00 p9b ->
+00:40:00 p5b ->
+00:55:00 p5b ->
+01:00:00 off
